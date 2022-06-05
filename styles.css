@@ -72,6 +72,14 @@ body {
     }
 }
 
+.link_underline {
+    text-decoration: none;
+}
+
+.link_underline:hover {
+    text-decoration: underline;
+}
+
 .contact-info__header,
   .contact-info__sub-header {
       text-align: center;
