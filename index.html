@@ -2,12 +2,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Marck+Script&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>Résumé</title>
-  </head>
+    </head>
   <body>
-    <main>
+        <main>
+          <embed src="assets/sound/silence.mp3" type="audio/mp3" autostart="true" hidden="true">
+            <audio id="player" autoplay controls><source src="assets/sound/background-music.mp3" type="audio/mp3"></audio>
         <div class="resume">
           <div class="container">
             <div class="resume__block">
@@ -17,7 +22,7 @@
               <div class="contact_info_container fh">
                 <div class="contact-info__block">
                     
-                    <a href="https://www.facebook.com/CaptainJackSparrow/" rel="author" class="contact-info__item">
+                    <a href="https://www.facebook.com/CaptainJackSparrow/" target="_blank "rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                               <path 
@@ -27,7 +32,7 @@
                         <span>@CaptainJackSparrow</span>
                       </a>
                     
-                      <a href="https://www.google.com/maps/place/%D0%A2%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0/@20.0409726,-72.9355624,11z/data=!3m1!4b1!4m5!3m4!1s0x8eb6635255465279:0x57de6eda0fe30d8a!8m2!3d20.0548685!4d-72.7924612" rel="author" class="contact-info__item">
+                      <a href="https://www.google.com/maps/place/%D0%A2%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0/@20.0409726,-72.9355624,11z/data=!3m1!4b1!4m5!3m4!1s0x8eb6635255465279:0x57de6eda0fe30d8a!8m2!3d20.0548685!4d-72.7924612" target="_blank" rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                 <path 
@@ -37,7 +42,7 @@
                         <span>Tortuga, Haiti</span>
                       </a>  
 
-                      <a href="" rel="author" class="contact-info__item">
+                      <div href="" target="_blank" rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path 
@@ -45,17 +50,17 @@
                             </svg>
                         </div>
                         <span>Pirates of the Carribean Inc. </span>
-                      </a>
+                      </div>
 
                 </div>
               
-                <div class="contact-info__block contact-info__block--center">
+                <div class="contact-info__block--center">
                   <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
                 </div>
       
                 <div class="contact-info__block">
 
-                    <a href="https://www.instagram.com/jack_s_p_a_row/" rel="author" class="contact-info__item">
+                    <a href="https://www.instagram.com/jack_s_p_a_row/" target="_blank" rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path 
@@ -65,7 +70,7 @@
                         <span>@CaptainJackSparrow</span>
                       </a>
 
-                    <a href="" rel="author" class="contact-info__item">
+                    <div href="" rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path 
@@ -73,9 +78,9 @@
                             </svg>
                         </div>
                         <span>9 июня 1662 года</span>
-                      </a>
+                      </div>
                       
-                      <a href="" rel="author" class="contact-info__item">
+                      <a href="tel:50926610609" rel="author" class="contact-info__item">
                         <div class="contact-info__item-icon-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path 
@@ -138,6 +143,16 @@
                               <li>Руководитель штурвала</li>
                               <li>Капитан самого быстрого корабля из существующих</li>
                             </ul>
+                            <br>
+                            <div class="additional-info__languages">
+                              <h3 class="additional-info__languages-header">Знание языков</h3>
+                              <p class="additional-info__languages-item">
+                                Английский - родной
+                              </p>
+                              <p class="additional-info__languages-item">
+                                Испанский - разговорный (опыт переговоров при абордаже)
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div></div>
@@ -157,15 +172,7 @@
                           </div>
                         </div>
                       
-                        <div class="additional-info__languages">
-                          <h3 class="additional-info__languages-header">Знание языков</h3>
-                          <p class="additional-info__languages-item">
-                            Английский - родной
-                          </p>
-                          <p class="additional-info__languages-item">
-                            Испанский - разговорный (опыт переговоров при абордаже)
-                          </p>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>

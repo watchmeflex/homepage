@@ -5,15 +5,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Caveat', cursive;
     line-height: 1.5;
-
+    font-weight: 600;
     --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
+    --secondary-text-color: #1b1b1d;
+    --durability-text-color: #1a1c1d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --text-decoration-color: #242221;
+    font-size: 23px;
 }
 
 .container {
@@ -40,10 +41,13 @@ body {
     box-shadow: 1px 1px 7px 7px #f5f5f5;
     padding: 30px 0;
     max-width: 900px;
-}
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
 
 .resume__block {
-    border-bottom: 3px solid var(--border-color);
+    border-bottom: 3px solid #1e1e1cc7;
     padding-bottom: 30px;
     margin-bottom: 15px;
 }
@@ -76,12 +80,11 @@ body {
   .contact-info__header {
       color: var(--primary-text-color);
       margin-bottom: 15px;
-      text-decoration-color: var(--text-decoration-color);
+      text-decoration-color: #222222;
       text-decoration-line: underline;
   }
 
   .contact-info__sub-header {
-      color: var(--secondary-text-color);
       margin-bottom: 30px;
   }
 
@@ -89,6 +92,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      min-width: 230px;
   }
 
   .contact-info__block--center {
@@ -96,7 +100,7 @@ body {
   }
 
   .contact-info__item {
-      color: var(--secondary-text-color);
+      color: #222222;
       text-decoration: none;
       display: flex;
       justify-content: start;
@@ -180,10 +184,10 @@ body {
 }
 
 .experiences__company-header-durability {
-    color: var(--durability-text-color);
+    color: #222222;
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .experiences__company-header-name {
@@ -200,10 +204,10 @@ body {
 }
 
 .experiences__company-project-role {
-    color: var(--durability-text-color);
+    color: #222222;
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .experiences__company-project-name {
